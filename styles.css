@@ -111,6 +111,12 @@ input:focus{
     display: none;
 }
 
+
+.command a{
+    text-decoration: none;
+    color: var(--command);
+}
+
 @media (max-width: 750px){
     main{
         width: 100%;

@@ -38,7 +38,7 @@ const enterCommand = (event) => {
             case 'skills':
             case 'education':
             case 'experience':
-            case 'projects':
+            case 'proyects':
             case 'courses':
             return getCommandTemplate(lowerCommand);
           case 'clear':
