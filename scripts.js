@@ -1,7 +1,7 @@
 const promptInput = document.getElementById('promptInput');
 const terminal = document.getElementById('terminal'); //adding content to de terminal
 const terminalWindow = document.getElementById('terminalWindow'); //click into the terminal
-const date = document.getElementById('date');
+const date = document.getElementById('date'); //date element 
 
 
 
@@ -9,6 +9,7 @@ const date = document.getElementById('date');
 promptInput.focus();
 date.innerText = new Date().toDateString()
 terminalWindow.addEventListener('click', () => promptInput.focus()); 
+
 
 promptInput.addEventListener('keydown', (event) => {
         if (event.key === "Enter") {
@@ -34,6 +35,7 @@ const enterCommand = (event) => {
         switch (lowerCommand) {
             case 'help':
             case 'about':
+            case 'cv':
             case 'social':
             case 'skills':
             case 'education':

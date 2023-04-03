@@ -14,67 +14,80 @@
 <body>
     <main>
         <div class="header">bash - PORTFOLIO Ulises Octavio Magnarelli </div>
+
         <div class="terminal" id="terminalWindow">
+
             <section id="terminal">
             <div class="command">Success login - <span class="error" id="date"></span></div>
             <div class="title">My Portfolio</div>
             <p>Hi! This is my portfolio, to see the command list type</p> <span class="command">'help'</span>
         </section>
+
         <div class="prompt">
             <span class="command">$</span> <span class="title">user: </span><input id="promptInput"/>
         </div>
+
         </div>
+
     </main>
 
 
     <div class="hidden" id="promptClone">
-        <span class="command">$</span> <span class="title">user: </span><span class="promptCloneInput"></span>
+        <span class="command">$</span> 
+        <span class="title">user: </span>
+        <span class="promptCloneInput"></span>
         <div class="promptCloneContent"></div>
     </div>
 
     <div class="hidden" id="help">
         <div class="SectionTitle">You can type any of these commands:</div>
+
         <div class="indent">
 
             <div>
                 <span class="command">about</span>:
-                <div class="indent">About me</div>
+                <div class="indent">Short presentation about me.</div>
+            </div>
+
+            <div>
+              <span class="command">cv</span>:
+              <div class="indent">Link to download my cv.</div>
             </div>
 
             <div>
                 <span class="command">social</span>:
-                <div class="indent">Lorem ipsum dolor</div>
+                <div class="indent">Ways to contact me.</div>
             </div>
 
             <div>
                 <span class="command">skills</span>:
-                <div class="indent">Lorem ipsum dolor</div>
+                <div class="indent">Tools i work with.</div>
             </div>
 
             <div>
                 <span class="command">education</span>:
-                <div class="indent">Lorem ipsum dolor</div>
+                <div class="indent">Education data.</div>
             </div>
 
             <div>
                 <span class="command">experience</span>:
-                <div class="indent">Lorem ipsum dolor</div>
+                <div class="indent">Skills i acquired working.</div>
             </div>
 
             <div>
                 <span class="command">proyects</span>:
-                <div class="indent">Lorem ipsum dolor</div>
+                <div class="indent">List of my proyects.</div>
             </div>
 
             <div>
                 <span class="command">courses</span>:
-                <div class="indent">Lorem ipsum dolor</div>
+                <div class="indent">Web Development courses i did.</div>
             </div>
 
 
             <div>
                 <span class="command">clear</span>:
-                <div class="indent">Delete </div>
+                <div class="indent">Delete all.</div>
             </div>
             
         </div>
@@ -83,6 +96,7 @@
 
 
     <div class="hidden" id="proyects">
+
         <div class="sectionTitle">Proyects: </div>
 
         <div class="indent">
@@ -96,23 +110,27 @@
         <div class="indent">
             <span class="title">Proyect 3</span> - <a href="https://ulises-magnarelli.github.io/entrega-proyecto-final/" target="_blank"> <span class="command">Simple web</span> </a>
         </div>
+
     </div>
 
 
 
     <div class="hidden" id="skills">
+
         <div class="sectionTitle">Skills: </div>
+
         <div class="indent">
           <div>
-            <span class="command">Programacion</span>:
             <div class="indent">
-              <span class="title">JAVASCRIPT</span>
-              <span class="title">NODEJS</span>
-              <span class="title">MYSQL</span>
-              <span class="title">CSS</span>
-              <span class="title">HTML</span>
-              <span class="title">GIT</span>
-              <span class="title">GITHUB</span>
+              <ul>
+                <li><span class="title">JAVASCRIPT</span></li>
+                <li><span class="title">NODEJS</span></li>
+                <li><span class="title">MYSQL</span></li>
+                <li><span class="title">CSS</span></li>
+                <li><span class="title">HTML</span></li>
+                <li><span class="title">GIT</span></li>
+                <li><span class="title">GITHUB</span></li>
+              </ul>
             </div> 
           </div>
  
@@ -124,29 +142,60 @@
             </div> 
           </div>
         </div>
+
       </div>
   
+
+
+
+
       <div class="hidden" id="about">
         <div class="sectionTitle">About me: </div>
           <div class="indent">
-            Hi! My name is <span class="command">Ulises Octavio Magnarelli</span>
-            
+             <span class="command">Hi! My name is Ulises Octavio Magnarelli, i'm 19 years old, and i am a Systems Engineering student at the Nacional Tecnological University of Argetnina, Buenos Aires.</span>
           </div> 
       </div>
   
+
+
+
+
+      <div class="hidden" id="cv">
+        <div class="sectionTitle">Curriculum</div>
+          <div class="indent">
+            <span class="command"><a target="_blank" href="EnglishCV.pdf">Download my CV</a></span>
+          </div> 
+      </div>
+
+
+
+
       <div class="hidden" id="experience">
-        <div class="sectionTitle">Experience: </div>
+        <div class="sectionTitle">Work experience: </div>
         <div class="indent">
           <span class="title">Customer service at a restaurant called “Arenales-Café” (waiter)</span> - <span class="command">January 2020 - December 2022</span>
           <div class="indent">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit harum
+            <ul>
+              <li>Time management and problem-solving. </li>
+              <li>Adaptation and resposability.</li>
+              <li>Proficiency to work both in a team and individually.</li>
+              <li>Development of multiple tasks quickly and efficiently. </li>
+              <li>Work under pressure.</li>
+            </ul>
           </div> 
         </div>
   
+
+
+
+
       <div class="hidden" id="social">
         <div class="sectionTitle">Find me: </div>
         <div class="indent">
           <span class="title">Github</span> - <span class="command"><a href="https://github.com/ulises-magnarelli">github</a></span>
+        </div>
+        <div class="indent">
+          <span class="title">Email</span> - <span class="command"><a href="mailto:uli.magnarelli@gmail.com">uli.magnarelli@gmail.com</a></span>
         </div>
         <div class="indent">
           <span class="title">LinkedIn</span> - <span class="command"><a href="https://www.linkedin.com/in/ulises-magnarelli-b03032208/">linkedIn</a></span>
@@ -156,6 +205,10 @@
           </div>
       </div>
   
+
+
+
+
       <div class="education hidden" id="education">
         <div class="sectionTitle">Education: </div>
         <div class="indent">
@@ -172,6 +225,10 @@
           </div> 
         </div>
       </div>
+
+
+
+
 
       <div class="courses hidden" id="courses">
         <div class="sectionTitle">Web Development courses: </div>
