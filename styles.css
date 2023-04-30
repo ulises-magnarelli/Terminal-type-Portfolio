@@ -32,7 +32,7 @@ main{
 
 
 .terminal{
-    background-color: var(--background);
+    background-color: black;
     color: var(--text);
     padding: 20px;
     border-bottom-left-radius: 5px;
@@ -67,7 +67,7 @@ main{
 }
 
 input{
-    background-color: var(--background);
+    background-color: black;
     color: var(--text);
     font-size: 14px;
     font-family: 'Space Mono', monospace;
